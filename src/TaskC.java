@@ -10,7 +10,7 @@ public class TaskC {
 
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = in.nextInt();
-            if (numbers[i] >= 0) {
+            if (numbers[i] > 0) {
                 pos++;
             }
         }

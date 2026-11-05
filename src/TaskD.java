@@ -6,16 +6,16 @@ public class TaskD {
         int N = in.nextInt();
         int[] numbers = new int[N];
 
-        int pastquan = 0;
         int bigger = 0;
 
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = in.nextInt();
-            int past = numbers[i];
+        }
+        for (int i = 1; i < numbers.length; i++) {
             if (numbers[i] > numbers[i-1]) {
-                pastquan++;
+                bigger++;
             }
         }
-        System.out.println(pastquan);
+        System.out.println(bigger);
     }
 }
