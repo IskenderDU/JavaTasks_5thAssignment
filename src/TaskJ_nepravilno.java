@@ -1,6 +1,6 @@
 import java.util.Scanner;         //Пока неправильно
 
-public class TaskJ {
+public class TaskJ_nepravilno {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] nums = new int[in.nextInt()];
